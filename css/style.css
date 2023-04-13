@@ -59,9 +59,31 @@
 
 /* END HEADER  */
 
+/* JUMBOTRON */
 .jumbotron{
     background-color: rgb(32, 51, 218);
 height: 500px;}
+
+.container-pink{
+    max-width: 900px;
+    margin: 0 auto;
+}
+
+.row-pink{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+ }
+
+ .col-pink{
+    background-color: rgb(238, 130, 238);
+    height: 400px;
+    width: calc(100%);
+    border-style: dotted;
+    margin-top: 50px;
+ }
+/* END JUMBOTRON */
 
 
 
