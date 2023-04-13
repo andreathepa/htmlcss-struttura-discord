@@ -59,7 +59,7 @@
 
 /* END HEADER  */
 
-/* JUMBOTRON */
+
 .jumbotron{
     background-color: rgb(32, 51, 218);
 height: 500px;}
@@ -85,5 +85,43 @@ height: 500px;}
  }
 /* END JUMBOTRON */
 
+/* 2ND SECTION */
+
+.bluepink-section{
+    background-color: rgb(255, 255, 255);
+    height: 500px;
+}
+
+.col-pinky{
+    background-color: pink;
+    height: 400px;
+    width: calc(40%);
+    border-style: dotted;
+    margin-top: 50px;
+ }
+
+ .col-blue{
+    background-color: lightblue;
+    height: 400px;
+    width: calc(60%);
+    border-style: dotted;
+    margin-top: 50px;
+ }
+
+/* END 2ND SECTION */
+
+/* 3RD SECTION */
+.grey-section{
+    background-color:grey;
+    height: 500px;
+}
+
+.row-reverse{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: row-reverse;
+ }
+/* END 3RD SECTION */
 
 
