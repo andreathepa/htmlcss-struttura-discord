@@ -62,7 +62,8 @@
 
 .jumbotron{
     background-color: rgb(32, 51, 218);
-height: 500px;}
+    height: 500px;
+}
 
 .container-pink{
     max-width: 900px;
@@ -85,7 +86,7 @@ height: 500px;}
  }
 /* END JUMBOTRON */
 
-/* 2ND SECTION */
+/* 2ND - 4TH SECTION */
 
 .bluepink-section{
     background-color: rgb(255, 255, 255);
@@ -108,11 +109,11 @@ height: 500px;}
     margin-top: 50px;
  }
 
-/* END 2ND SECTION */
+/* END 2ND - 4TH SECTION */
 
 /* 3RD SECTION */
 .grey-section{
-    background-color:grey;
+    background-color:lightgrey;
     height: 500px;
 }
 
@@ -123,5 +124,96 @@ height: 500px;}
     flex-direction: row-reverse;
  }
 /* END 3RD SECTION */
+
+/* 5TH SECTION */
+.fgrey-section{
+    background-color:lightgrey;
+    height: 900px;
+}
+
+.container-green{
+    max-width: 900px;
+    margin: 0 auto;
+}
+
+.row-green{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+ }
+
+ .col-green{
+    background-color: rgb(34, 139, 34);
+    height: 700px;
+    width: calc(100%);
+    border-style: dotted;
+    margin-top: 50px;
+ }
+/* END 5TH SECTION */
+
+/* FINAL SECTION */
+
+.dark-section{
+    background-color: rgb(78, 77, 77);
+    height: 500px;
+}
+
+.container-dark{
+    max-width: 900px;
+    margin: 0 auto;
+}
+
+.row-dark{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+ }
+
+.col-tomato{
+    background-color: tomato;
+    height: 400px;
+    width: calc(60%);
+    border-style: dotted;
+    margin-top: 20px;
+ }
+
+ .col-torquoise{
+    background-color: turquoise;
+    height: 400px;
+    width: calc(40%);
+    border-style: dotted;
+    margin-top: 20px;
+ }
+
+/* END FINAL SECTION */
+
+.dark-foot{
+    background-color: rgb(78, 77, 77);
+    height: 100px;
+    margin-bottom: 20px;
+}
+
+.foot-container{
+    max-width: 900px;
+    margin: 0 auto;
+    padding: 20px;
+    background-color: aqua;
+}
+
+.col-empty{
+    background-color: aqua;
+    height: 30px;
+    width: calc(60%);
+}
+
+.col-logo, .col-bottone{
+    background-color: rgb(235, 129, 235);
+    height: 30px;
+    width: calc(20%);
+    border-style: dotted;
+}
+/* FOOTER */
 
 
