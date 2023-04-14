@@ -34,7 +34,7 @@
     background-color: rgb(218, 165, 32);
     height: 30px;
     width: calc(20%);
-    border-style: dotted;
+    border: 1px dashed black;
     padding: 5px 10px;
 }
 
@@ -42,7 +42,7 @@
     background-color: rgb(218, 165, 32);
     height: 30px;
     width: calc(60%);
-    border-style: dotted;
+    border: 1px dashed black;
 
 }
 
@@ -80,8 +80,8 @@
  .col-pink{
     background-color: rgb(238, 130, 238);
     height: 400px;
-    width: calc(100%);
-    border-style: dotted;
+    width: 80%;
+    border: 1px dashed black;
     margin-top: 50px;
  }
 /* END JUMBOTRON */
@@ -96,16 +96,16 @@
 .col-pinky{
     background-color: pink;
     height: 400px;
-    width: calc(40%);
-    border-style: dotted;
+    width: 40%;
+    border: 1px dashed black;
     margin-top: 50px;
  }
 
  .col-blue{
     background-color: lightblue;
     height: 400px;
-    width: calc(60%);
-    border-style: dotted;
+    width: 60%;
+    border: 1px dashed black;
     margin-top: 50px;
  }
 
@@ -146,8 +146,8 @@
  .col-green{
     background-color: rgb(34, 139, 34);
     height: 700px;
-    width: calc(100%);
-    border-style: dotted;
+    width: 100%;
+    border: 1px dashed black;
     margin-top: 50px;
  }
 /* END 5TH SECTION */
@@ -156,7 +156,7 @@
 
 .dark-section{
     background-color: rgb(78, 77, 77);
-    height: 500px;
+    height: 450px;
 }
 
 .container-dark{
@@ -171,48 +171,53 @@
 
  }
 
-.col-tomato{
+ .col-tomato{
     background-color: tomato;
     height: 400px;
-    width: calc(60%);
-    border-style: dotted;
+    width: 30%;
+    border: 1px dashed black;
     margin-top: 20px;
  }
 
  .col-torquoise{
     background-color: turquoise;
     height: 400px;
-    width: calc(40%);
-    border-style: dotted;
+    width: 17%;
+    border: 1px dashed white;
     margin-top: 20px;
  }
 
 /* END FINAL SECTION */
 
+.row-footer{
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+    margin-top: 20px;
+ }
+
 .dark-foot{
     background-color: rgb(78, 77, 77);
-    height: 100px;
-    margin-bottom: 20px;
+    margin-top: 2px;
+    width: 100%;
+    height: 70px;
+    display: flex;
+    align-items: flex-end;
 }
 
 .foot-container{
-    max-width: 900px;
+    width: 900px;
+    height: 50px;
     margin: 0 auto;
-    padding: 20px;
     background-color: aqua;
 }
 
-.col-empty{
-    background-color: aqua;
-    height: 30px;
-    width: calc(60%);
-}
 
 .col-logo, .col-bottone{
     background-color: rgb(235, 129, 235);
-    height: 30px;
-    width: calc(20%);
-    border-style: dotted;
+    width: 10%;
+    padding-left: 10px;
+    border: 1px dashed black;
 }
 /* FOOTER */
 
